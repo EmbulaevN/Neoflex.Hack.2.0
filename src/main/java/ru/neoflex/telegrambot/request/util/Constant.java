@@ -1,4 +1,4 @@
-package request.util;
+package ru.neoflex.telegrambot.request.util;
 
 public interface Constant {
 

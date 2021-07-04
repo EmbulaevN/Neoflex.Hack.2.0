@@ -1,8 +1,8 @@
-package request.controller;
+package ru.neoflex.telegrambot.request.controller;
 
 import org.json.JSONObject;
-import request.coin.Coin;
-import request.util.Constant;
+import ru.neoflex.telegrambot.request.coin.Coin;
+import ru.neoflex.telegrambot.request.util.Constant;
 
 import java.io.IOException;
 import java.io.InputStream;

@@ -1,4 +1,4 @@
-package request.util;
+package ru.neoflex.telegrambot.request.util;
 
 import java.io.IOException;
 import java.net.HttpURLConnection;

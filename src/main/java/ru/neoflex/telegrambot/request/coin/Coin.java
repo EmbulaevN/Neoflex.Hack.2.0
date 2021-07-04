@@ -1,4 +1,4 @@
-package request.coin;
+package ru.neoflex.telegrambot.request.coin;
 
 public class Coin {
 

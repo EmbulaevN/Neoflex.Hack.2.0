@@ -1,4 +1,4 @@
-package bot;
+package ru.neoflex.telegrambot.bot;
 
 import com.vdurmont.emoji.EmojiParser;
 import org.apache.log4j.Logger;
@@ -7,12 +7,12 @@ import org.telegram.telegrambots.bots.TelegramLongPollingBot;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 import org.telegram.telegrambots.meta.api.objects.Update;
 import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
-import request.coin.Coin;
-import request.coin.CoinsMap;
-import request.controller.GetAllCoins;
-import request.controller.GetNCoins;
-import request.controller.GetOneCoin;
-import request.util.Constant;
+import ru.neoflex.telegrambot.request.coin.Coin;
+import ru.neoflex.telegrambot.request.coin.CoinsMap;
+import ru.neoflex.telegrambot.request.controller.GetAllCoins;
+import ru.neoflex.telegrambot.request.controller.GetNCoins;
+import ru.neoflex.telegrambot.request.controller.GetOneCoin;
+import ru.neoflex.telegrambot.request.util.Constant;
 
 import java.io.IOException;
 import java.util.List;

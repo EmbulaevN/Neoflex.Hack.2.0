@@ -1,12 +1,12 @@
-package request.controller;
+package ru.neoflex.telegrambot.request.controller;
 
 import org.json.JSONObject;
 import org.json.simple.JSONArray;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
-import request.coin.Coin;
-import request.util.Connection;
-import request.util.Constant;
+import ru.neoflex.telegrambot.request.coin.Coin;
+import ru.neoflex.telegrambot.request.util.Connection;
+import ru.neoflex.telegrambot.request.util.Constant;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -17,8 +17,8 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Scanner;
 
-import static request.util.GettingStringFromJson.addCoinsToList;
-import static request.util.GettingStringFromJson.getStringFromJsonArray;
+import static ru.neoflex.telegrambot.request.util.GettingStringFromJson.addCoinsToList;
+import static ru.neoflex.telegrambot.request.util.GettingStringFromJson.getStringFromJsonArray;
 
 public class GetAllCoins {
 

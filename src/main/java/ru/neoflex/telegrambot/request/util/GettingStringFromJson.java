@@ -1,7 +1,7 @@
-package request.util;
+package ru.neoflex.telegrambot.request.util;
 
 import org.json.simple.JSONObject;
-import request.coin.Coin;
+import ru.neoflex.telegrambot.request.coin.Coin;
 
 import java.io.BufferedReader;
 import java.io.IOException;

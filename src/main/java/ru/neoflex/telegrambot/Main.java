@@ -1,8 +1,9 @@
-package bot;
+package ru.neoflex.telegrambot;
 
 import org.telegram.telegrambots.ApiContextInitializer;
 import org.telegram.telegrambots.meta.TelegramBotsApi;
 import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
+import ru.neoflex.telegrambot.bot.DevDucksCryptoBot;
 
 public class Main {
 
